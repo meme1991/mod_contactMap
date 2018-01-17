@@ -10,15 +10,15 @@
 defined('_JEXEC') or die;
 ?>
 
-<div class="contactmap" style="height: <?php echo $hieght ?>px">
+<div class="contactmap">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-<?php echo $col ?> px-0 map">
+      <div class="col-12 col-sm-12 col-md-<?php echo $col ?> px-0 map" style="height: <?php echo $hieght ?>px">
         <div id="map-canvas" style="height: <?php echo $hieght ?>px"></div>
         <div id="cd-zoom-in"></div>
         <div id="cd-zoom-out"></div>
       </div>
-      <div class="col-12 col-sm-12 col-md-6 contact d-flex align-items-center<?php echo $none ?>">
+      <div class="col-12 col-sm-12 col-md-6 contact d-flex align-items-center<?php echo $none ?>" style="height: <?php echo $hieght ?>px">
         <div class="contact-wrap px-5">
           <div class="contact-block px-5">
             <?php if($title_1) : ?>

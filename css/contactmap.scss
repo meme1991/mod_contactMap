@@ -56,12 +56,12 @@
   .contact{
     background-color: #29677e;
     color: #fff !important;
+    h3,p,a{
+      color: #fff !important;
+    }
     h3{
       text-transform: uppercase;
       margin-bottom: 30px;
-    }
-    a{
-      color: #fff !important;
     }
     .social{
       .fa-inverse{
