@@ -3,7 +3,7 @@
  * @version    1.0.x
  * @package    Contact map
  * @author     SPEDI srl http://www.spedi.it
- * @copyright  Copyright (c) 1991 - 2016 Spedi srl. Tutti i diritti riservati.
+ * @copyright  Copyright (c) Spedi srl.
  * @license    GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
  */
 
