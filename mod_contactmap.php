@@ -17,6 +17,8 @@ $caption_2    = $params->get('caption-2');
 $fullmap      = $params->get('full-map');
 $hieght       = $params->get('hieght');
 $social       = $params->get('social');
+$googleMapKey = $params->get('gmapkey');
+
 if($social){
   $social = array();
   // facebook

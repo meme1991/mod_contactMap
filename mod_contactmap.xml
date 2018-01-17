@@ -115,6 +115,15 @@
             description="MOD_CONTACTMAP_MAPHEIGHT_DESC"
           />
 
+          <field
+            name="gmapkey"
+            type="text"
+            size="10"
+            label="MOD_CONTACTMAP_GMAPKEY"
+            description="MOD_CONTACTMAP_GMAPKEY_DESC"
+            require="true"
+          />
+
         </fieldset>
 
       </fields>
