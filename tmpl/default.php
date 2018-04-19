@@ -59,5 +59,5 @@ defined('_JEXEC') or die;
   </div>
 </div>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $googleMapKey ?>&callback=initMap" type="text/javascript" defer="defer" async="async"></script>
 <script src="<?php echo JUri::base(true).'/modules/'.$module->module.'/js/map.js' ?>" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $googleMapKey ?>&callback=initMap" type="text/javascript" defer="defer" async="async"></script>
